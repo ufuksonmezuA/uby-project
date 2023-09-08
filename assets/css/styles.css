@@ -1,0 +1,91 @@
+#addProductButtonIcon,
+#addProductPopupWrapperClose {
+    display: inline;
+    height: inherit;
+    font-size: 1.25rem;
+}
+
+#addProductPopupWrapper {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 45%;
+    background-color: #eee;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addProductPopupHeader,
+.addProductPopupMain {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.addProductPopupHeader {
+    padding: 2rem;
+}
+.addProductPopupMain {
+    padding: 1rem;
+}
+.addProductPopupMain > input {
+    width: 50%;
+    margin: 1rem;
+    padding: 1rem 2rem;
+    outline: 0;
+}
+
+.addProductPopupFooter {
+    width: 95%;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1rem;    
+    padding: 1rem;
+}
+
+.addProductPopupFooter > input {
+    width: 100%;
+    margin: 0;
+    padding: 1rem 2rem;
+    outline: 0;
+}
+
+.addProductPopupFooter > button {
+    width: 100%;
+}
+
+#addProductPopupWrapperClose {
+    cursor: pointer;
+}
+
+.listProduct {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.listProduct > ul {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    gap: .5rem;
+    background-color: #eee;
+    width: 320px !important;
+    height: 240px !important;
+    border-radius: .5rem;
+}
+
+.listProduct > ul > li:nth-child(1) {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.listProduct > ul > li:nth-child(2),
+.listProduct > ul > li:nth-child(3) {
+    font-size: 1rem;
+}
